@@ -1,0 +1,32 @@
+{
+  "name": "api-tecnomail",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "EMAIL_HOST=smtp.gmail.com EMAIL_PASSWORD=prj@kno2020 EMAIL_PORT=465 EMAIL_USER=knowledge@tecnomotor.com.br EMAILS_ASSISTENCIA=rogerio@tecnomotor.com.br node src/server.js"
+  },
+  "engines": {
+    "node": "6.3.0"
+  },
+  "author": "@thgbarros",
+  "license": "ISC",
+  "homepage": "",
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "body-parser": "^1.15.2",
+    "consign": "^0.1.2",
+    "cors": "^2.7.1",
+    "express": "^4.13.3",
+    "helmet": "^2.1.1",
+    "http-status": "^0.2.5",
+    "is-empty": "^1.2.0",
+    "method-override": "^2.3.6",
+    "mongo-sanitize": "^1.0.0",
+    "mongoose": "^4.5.4",
+    "mongoose-findorcreate": "^0.1.2",
+    "nodemailer": "^4.2.0",
+    "request": "^2.83.0"
+  }
+}
